@@ -10,6 +10,7 @@ namespace MvcGit.Controllers
     {
         public ActionResult Index()
         {
+            //this is index action
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
             return View();
@@ -17,6 +18,7 @@ namespace MvcGit.Controllers
 
         public ActionResult About()
         {
+            //this is about action
             ViewBag.Message = "Your app description page.";
 
             return View();
@@ -24,6 +26,7 @@ namespace MvcGit.Controllers
 
         public ActionResult Contact()
         {
+            // this is contact action
             ViewBag.Message = "Your contact page.";
 
             return View();
